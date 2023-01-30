@@ -1,0 +1,159 @@
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #slideshow img.active {
+    opacity: 1;
+  }
+
+  
+#who-are-we {
+    padding: 5%;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  #who-are-we h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #who-are-we p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  section.container{
+    padding-top: 77px;
+}
+section.container h2{
+    font-family: 'Press Start 2P';
+
+
+}
+section.container strong{
+    color: red;
+}
+
+  #carouselIndicators {
+    height: 400px;
+    z-index: 1;
+}
+@media (min-width: 768px) {
+    #carouselIndicators {
+      max-height: 500px;
+    }
+  }
+  .carousel-item {
+    max-width: 100%;
+    width:auto;
+    max-height: 100%;
+    height:auto;
+    background-size: cover;
+    z-index: -1;
+  }
+.carousel-heading {
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.4);
+    padding: 0.4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.carousel-heading span {
+    color: black;
+    z-index: 1;
+    font-size: 30px !important;
+}
+.carousel-heading a{
+    padding-left: 3%;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 50px;
+    align-items: center;
+    position: relative;
+    float:right;
+    padding-right:3%;
+    color:white;
+    background-color: #2196f3;
+}
+.carousel-heading a:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+div.what-do-we-do{
+
+  padding-bottom: 40px;
+  padding-left: 10%;
+  padding-right:10%;
+  background-color: purple;/*Change to appropriate background*/
+}
+.what-do-we-do h1{
+
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top:20px;
+  color:yellow;
+  font-family: 'Press Start 2P';
+
+}
+
+
+
+  /* Add some hover effect to the image */
+  .card img:hover {
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%);
+    cursor: pointer;
+  }
+  /* Add a background color and some padding to the cards */
+.card {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom:10px;
+    min-width: 18rem;
+    max-height: 18rem;
+  }
+  
+  /* Style the card image */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Style the card title */
+  .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Style the card text */
+  .card-text {
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+  }
+
+  
