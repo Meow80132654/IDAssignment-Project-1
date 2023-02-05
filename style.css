@@ -11,8 +11,9 @@
 .dropdown-menu {
     font-size: 1.2rem;
 }
-section.container{
+section.container {
   padding-top: 77px;
+
 }
 footer {
   padding: 30px 0;
@@ -62,4 +63,10 @@ h4.title{
   width: auto;
   box-sizing: initial;
   font-family: 'Press Start 2P';
+}
+
+img.container {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
